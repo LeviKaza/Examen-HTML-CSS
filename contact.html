@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contact.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html" class="button">Acceuil</a></li>
+                    <li><a href="product.html" class="button">Produit</a></li>
+                    <li><a href="contact.html" class="button">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="formsubmit.html" class="form">
+                <label for="pseudo">Pseudo</label>
+                <input type="text" name="pseudo" id="pseudo"> <br>
+
+                <label for="mail"></label>Mail
+                <input type="email" name="mail" id="mail"> <br>
+
+                <label for="gender">Genre</label> <br>
+                <div class="radio">
+                        <input type="radio" name="gender" id="male">
+                        <label for="gender">Homme</label> <br>
+
+                        <input type="radio" name="gender" id="female" class="radio">
+                        <label for="gender">Femme</label> <br>
+
+                        <input type="radio" name="gender" id="Other" class="radio">
+                        <label for="gender">Autre</label>
+                </div> <br>
+                <label for="birthdate">Date de naissance</label>
+                <input type="date" name="birthdate" id="birthdate"> <br>
+
+                <label for="comment">Décrivez-nous votre problème</label> <br>
+                <input type="text" name="comment" id="comment"> <br>
+
+                <input type="submit" value="Envoyer">
+            </form>
+        </main>
+        <footer>
+            <nav class="navfoot">
+                <ul>
+                    <li><a href="contact.html" class="btnfoot">Contact</a></li>
+                    <li><a href="" class="btnfoot">Cgu</a></li>
+                    <li><a href="" class="btnfoot">A propos</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>

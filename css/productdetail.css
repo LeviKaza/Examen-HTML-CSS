@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    height: 100%;
+    width: 50%;
+}
+
+.detail {
+    height: 100%;
+    width: 50%;
+}
+
+.red {
+    height: 100%;
+    width: 100%;
+}
+
+.yellow {
+    height: 100%;
+    width: 100%;
+}
+
+.green {
+    height: 100%;
+    width: 100%;
+}
